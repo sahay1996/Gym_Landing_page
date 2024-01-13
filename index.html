@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashish Fitness Center</title>
+    <link rel="stylesheet" href="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Lemon&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Baloo 2", sans-serif;
+        font-family: "Lemon", serif;
+        background: url("abs-1850926_1280.jpg");
+        margin: 0px;
+        padding: 0px;
+        color: white;
+      }
+      .left {
+        position: absolute;
+        left: 34px;
+        top: 12px;
+        display: inline-block;
+        /* border: 2px solid green; */
+      }
+      .left div {
+        text-align: center;
+      }
+      .left img {
+        width: 100px;
+        height: 100px;
+      }
+      .mid {
+        display: block;
+        margin: 12px auto;
+        width: 44%;
+        border: 2px solid greenyellow;
+      }
+      .right {
+        position: absolute;
+        right: 34px;
+        top: 12px;
+        display: inline-block;
+        border: 2px solid palegreen;
+      }
+      .navbar {
+        display: inline-block;
+      }
+      .navbar li {
+        display: inline-block;
+        font-size: 15px;
+      }
+      .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+      }
+      .navbar li a:hover,
+      .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+      }
+      .btn {
+        font-family: "Baloo 2", sans-serif;
+        background-color: black;
+        color: white;
+        margin: 0px 10px;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: rgb(0, 8, 255);
+      }
+      .container {
+        border: 2px solid green;
+        margin: 100px 30px;
+        padding: 10px 75px;
+        width: 33%;
+        display: block;
+        border-radius: 2px;
+        border-color: white;
+      }
+      .form-group input {
+        text-align: center;
+        display: block;
+        width: auto;
+        padding: 6px;
+        border: 2px solid green;
+        margin: 3px auto;
+        border-radius: 10px;
+        font-family: "Baloo 2", sans-serif;
+      }
+      .container h5 {
+        text-align: center;
+      }
+      .container button {
+        display: block;
+        width: 59%;
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+        <img src="download.jpg" alt="logo" />
+        <div>Ashish Fitness</div>
+      </div>
+      <!-- mid box for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <!-- right box for buttons -->
+      <div class="right">
+        <button class="btn">Call Us now</button>
+        <button class="btn">Email us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h5>Join the best GYM of Delhi Now</h5>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Enter Your Name" />
+        </div>
+        <div class="form-group">
+          <input type="number" id="name" placeholder="Enter Your Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Enter Your Gender" />
+        </div>
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Enter Your Locality" />
+          
+        </div>
+        <div class="form-group">
+          <input type="tel" id="name" placeholder="Enter Your  Number" />
+          
+        </div>
+        <div class="form-group">
+          <input type="email" id="name" placeholder="Enter Your Email" />
+          <button class="btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
